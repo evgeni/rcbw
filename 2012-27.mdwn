@@ -1,0 +1,78 @@
+RCBW report for 2012/27 (2.7.-8.7.)
+===================================
+
+The week actually started on the 5th, as at some point I got bored I 
+thought I could invest my time into something useful (RC bugs are the 
+first thing that comes to your mind too, right?).
+
+ * [679981][679981] **asus-oled-dkms**
+   *FTBFS: tries to build module immediately*
+   patch sent, merged and uploaded by maintainer shortly afterwards
+
+ * [680345][680345] **hyperestraier**
+   *FTBFS: Not a CODE reference at /usr/lib/perl/5.14/DynaLoader.pm line 207*
+   commented
+
+ * [679761][679761] **olsrd**
+   *FTBFS[kfreebsd]: fatal error: linux/types.h: No such file or directory*
+   NMU prepared, maintainer uploaded the same patch shortly afterwards
+
+ * [679704][679704] **live-tools**
+   *fails to upgrade from wheezy: ln: failed to create symbolic link `/usr/bin/uptime': File exists*
+   patch sent, uploaded by maintainer shortly afterwards
+
+ * [679734][679734] **ntop**
+   *Maintainer address bounces*
+   poked maintainer via IRC, he fixed his mailsetup, bug closed
+
+ * [678762][678762] **node-xmpp**
+   *FTBFS: Error: Cannot find module 'node-expat'*
+   actual bug is in node-node-expat, moved as needed
+
+ * [672048][672048] **qwbfsmanager**
+   *FTBFS: src/gui/pColorButton.h:35:25: fatal error: FreshExport.h: No such file or directory*
+   NMU uploaded to DELAYED/2
+
+ * [677930][677930] **qwbfsmanager**
+   *FTBFS with gcc 4.7*
+   NMU uploaded to DELAYED/2
+
+ * [680399][680399] **asus-oled-dkms**
+   *FTBFS: make: \*\*\* /lib/modules/2.6.32/build: No such file or directory. Stop.*
+   closed as 0.04-2 fixes it and it was filled against -1
+
+ * [679586][679586] **dia**
+   *Fails to run*
+   commented "works for me → downgrade", later downgraded by maintainer
+
+ * [678108][678108] **httpcomponents-core**
+   *FTBFS twice in a row - broken clean rule*
+   NMU uploaded to DELAYED/2, got beaten by gregoa in speed (he uploaded the same patch hours earlier and I didn't notice).
+
+ * [635091][635091] **software-center**
+   *After upgrade from Squeeze, it doesn't start*
+   still unreproducible, pinged submitter
+
+ * [613842][613842] **spread**
+   *Uninstall of spread breaks dpkg*
+   sent patch, no NMU due to [639916][639916]
+
+ * [669486][669486] **django-auth-ldap**
+   *FTBFS: django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.*
+   sponsored upload for the maintainer
+
+[613842]: http://bugs.debian.org/613842
+[635091]: http://bugs.debian.org/635091
+[639916]: http://bugs.debian.org/639916
+[669486]: http://bugs.debian.org/669486
+[672048]: http://bugs.debian.org/672048
+[677930]: http://bugs.debian.org/677930
+[678108]: http://bugs.debian.org/678108
+[678762]: http://bugs.debian.org/678762
+[679586]: http://bugs.debian.org/679586
+[679704]: http://bugs.debian.org/679704
+[679734]: http://bugs.debian.org/679734
+[679761]: http://bugs.debian.org/679761
+[679981]: http://bugs.debian.org/679981
+[680345]: http://bugs.debian.org/680345
+[680399]: http://bugs.debian.org/680399
