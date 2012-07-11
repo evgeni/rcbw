@@ -1,0 +1,23 @@
+RCBW report for 2012/28 (9.7.-15.7.)
+====================================
+
+ * [680822][680822] **pyside**
+   *FTBFS: build-dependency not installable: libphonon-dev*
+   commented about the bug being in libphonon-dev, IMHO
+
+ * [680834][680834] **ipadic**
+   *FTBFS: debian/utf8dict: 37: debian/utf8dict: /usr/lib/chasen/makemat: not found*
+   patch to find multiarched chasen files sent, uploaded by maintainer
+
+ * [680827][680827] **mecab-cannadic**
+   *FTBFS: make[1]: /usr/lib/chasen/makemat: Command not found*
+   patch to find multiarched chasen files sent
+
+ * [680825][680825] **gromacs**
+   *gromacs: FTBFS: mv: cannot stat `/«PKGBUILDDIR»/debian/gromacs-mpich/usr/lib/\*.so': No such file or directory*
+   submitted a working but hacky patch
+
+[680822]: http://bugs.debian.org/680822
+[680825]: http://bugs.debian.org/680825
+[680827]: http://bugs.debian.org/680827
+[680834]: http://bugs.debian.org/680834
