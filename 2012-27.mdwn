@@ -11,7 +11,7 @@ first thing that comes to your mind too, right?).
 
  * [680345][680345] **hyperestraier**
    *FTBFS: Not a CODE reference at /usr/lib/perl/5.14/DynaLoader.pm line 207*
-   commented
+   commented that the bug is in the parallel-build setup
 
  * [679761][679761] **olsrd**
    *FTBFS[kfreebsd]: fatal error: linux/types.h: No such file or directory*
@@ -27,7 +27,7 @@ first thing that comes to your mind too, right?).
 
  * [678762][678762] **node-xmpp**
    *FTBFS: Error: Cannot find module 'node-expat'*
-   actual bug is in node-node-expat, moved as needed
+   actual bug is in node-node-expat, moved as needed, fixed by maintainer of node-node-expat afterwards
 
  * [672048][672048] **qwbfsmanager**
    *FTBFS: src/gui/pColorButton.h:35:25: fatal error: FreshExport.h: No such file or directory*
