@@ -1,0 +1,9 @@
+RCBW report for 2012/29 (16.7.-22.7.)
+=====================================
+
+ * [681583][681583] **python-blist**
+   *empty package*  
+   patch to properly build a python module sent
+
+[681583]: http://bugs.debian.org/681583
+
