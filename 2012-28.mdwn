@@ -2,31 +2,31 @@ RCBW report for 2012/28 (9.7.-15.7.)
 ====================================
 
  * [680822][680822] **pyside**
-   *FTBFS: build-dependency not installable: libphonon-dev*
+   *FTBFS: build-dependency not installable: libphonon-dev*  
    commented about the bug being in libphonon-dev, IMHO
 
  * [680834][680834] **ipadic**
-   *FTBFS: debian/utf8dict: 37: debian/utf8dict: /usr/lib/chasen/makemat: not found*
+   *FTBFS: debian/utf8dict: 37: debian/utf8dict: /usr/lib/chasen/makemat: not found*  
    patch to find multiarched chasen files sent, uploaded by maintainer
 
  * [680827][680827] **mecab-cannadic**
-   *FTBFS: make[1]: /usr/lib/chasen/makemat: Command not found*
+   *FTBFS: make[1]: /usr/lib/chasen/makemat: Command not found*  
    patch to find multiarched chasen files sent, later discussion with maintainer lead to removal of the package [681333][681333]
 
  * [680825][680825] **gromacs**
-   *gromacs: FTBFS: mv: cannot stat `/«PKGBUILDDIR»/debian/gromacs-mpich/usr/lib/\*.so': No such file or directory*
+   *gromacs: FTBFS: mv: cannot stat `/«PKGBUILDDIR»/debian/gromacs-mpich/usr/lib/\*.so': No such file or directory*  
    submitted a working but hacky patch, further debugging by Brad King revealed a bug in cmake and thus [681428][681428]
 
  * [681191][681191] **scratch**
-   *fails to install: scratch.postinst: update-mime-database: not found*
+   *fails to install: scratch.postinst: update-mime-database: not found*  
    trivial patch proposed, uploaded by maintainer shortly afterwards
 
  * [681216][681216] **collectd**
-   *package fails to upgrade when collectd is disabled*
+   *package fails to upgrade when collectd is disabled*  
    patch sent, maintainer proposed and uploaded a better shortly afterwards
 
  * [671768][671768] **software-center**
-   *fails to display list of software if "gir1.2-gstreamer-0.10" is not installed*
+   *fails to display list of software if "gir1.2-gstreamer-0.10" is not installed*  
    the gstreamer import is unused but causes Python errors, proposed to remove the import
 
 [671768]: http://bugs.debian.org/671768
