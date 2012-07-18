@@ -17,6 +17,11 @@ RCBW report for 2012/29 (16.7.-22.7.)
    *FTBFS: building documentation fails*  
    patch to skip the building of the issuelist from github sent, uploaded by maintainer shortly afterwards
 
+ * [681328][681328] **blockdiag**
+   *FTBFS: pep8: 21 errors / 0 warnings*  
+   found patch in upstream's mercurial repository, sent it to the BTS
+
+[681328]: http://bugs.debian.org/681328
 [681379]: http://bugs.debian.org/681379
 [681583]: http://bugs.debian.org/681583
 [681584]: http://bugs.debian.org/681584
