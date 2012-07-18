@@ -5,5 +5,19 @@ RCBW report for 2012/29 (16.7.-22.7.)
    *empty package*  
    patch to properly build a python module sent
 
-[681583]: http://bugs.debian.org/681583
+ * [681584][681584] **python-colorama**
+   *missing dependency on python*  
+   patch to use dh_python2 sent
 
+ * [681678][681678] **licq**
+   *Fails to start without recommends being installed*  
+   commented about a possible solution, awaiting maintainer comment
+
+ * [681379][681379] **django-celery**
+   *FTBFS: building documentation fails*  
+   patch to skip the building of the issuelist from github sent, uploaded by maintainer shortly afterwards
+
+[681379]: http://bugs.debian.org/681379
+[681583]: http://bugs.debian.org/681583
+[681584]: http://bugs.debian.org/681584
+[681678]: http://bugs.debian.org/681678
