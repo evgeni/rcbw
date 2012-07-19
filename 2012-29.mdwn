@@ -24,8 +24,18 @@ The motto for this week was:
    *FTBFS: pep8: 21 errors / 0 warnings*  
    found patch in upstream's mercurial repository, sent it to the BTS
 
+ * [681901][681901] **datapm**
+   *missing dependency on python-pkg-resources*  
+   trivial patch submitted, filled [682053][682053] while fixing
+
+ * [682053][682053] **datapm**
+   *FTBFS if built twice in a row*  
+   patch submitted
+
 [681328]: http://bugs.debian.org/681328
 [681379]: http://bugs.debian.org/681379
 [681583]: http://bugs.debian.org/681583
 [681584]: http://bugs.debian.org/681584
 [681678]: http://bugs.debian.org/681678
+[681901]: http://bugs.debian.org/681901
+[682053]: http://bugs.debian.org/682053
