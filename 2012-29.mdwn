@@ -32,10 +32,24 @@ The motto for this week was:
    *FTBFS if built twice in a row*  
    NMU uploaded with maintainer approval
 
+ * [681316][681316] **httpie**
+   *missing dependency on python-pkg-resources*  
+   trivial patch submitted, filled [682076][682076] while fixing
+
+ * [682076][682076] **httpie**
+   *FTBFS if built twice in a row*  
+   patch submitted
+
+ * [663506][663506] **httpie**
+   *Always bails out with "pkg_resources.DistributionNotFound: requests>=0.10.4"*  
+   while not RC, IMHO an important bug to fix. submitted a patch while working on [681316][681316] and [682076][682076]
+
  * [682177][682177] **suitesparse**
    *libsuitesparse-dbg doesn't contain any debug information*  
    submitted a patch that fixes the issue, no intent to NMU as I cannot test the changes good enough
 
+[663506]: http://bugs.debian.org/663506
+[681316]: http://bugs.debian.org/681316
 [681328]: http://bugs.debian.org/681328
 [681379]: http://bugs.debian.org/681379
 [681583]: http://bugs.debian.org/681583
@@ -44,3 +58,4 @@ The motto for this week was:
 [681901]: http://bugs.debian.org/681901
 [682053]: http://bugs.debian.org/682053
 [682177]: http://bugs.debian.org/682177
+[682076]: http://bugs.debian.org/682076
