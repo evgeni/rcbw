@@ -26,11 +26,11 @@ The motto for this week was:
 
  * [681901][681901] **datapm**
    *missing dependency on python-pkg-resources*  
-   trivial patch submitted, filled [682053][682053] while fixing
+   NMU uploaded with maintainer approval, filled [682053][682053] while fixing
 
  * [682053][682053] **datapm**
    *FTBFS if built twice in a row*  
-   patch submitted
+   NMU uploaded with maintainer approval
 
  * [682177][682177] **suitesparse**
    *libsuitesparse-dbg doesn't contain any debug information*  
