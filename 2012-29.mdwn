@@ -32,6 +32,10 @@ The motto for this week was:
    *FTBFS if built twice in a row*  
    patch submitted
 
+ * [682177][682177] **suitesparse**
+   *libsuitesparse-dbg doesn't contain any debug information*  
+   submitted a patch that fixes the issue, no intent to NMU as I cannot test the changes good enough
+
 [681328]: http://bugs.debian.org/681328
 [681379]: http://bugs.debian.org/681379
 [681583]: http://bugs.debian.org/681583
@@ -39,3 +43,4 @@ The motto for this week was:
 [681678]: http://bugs.debian.org/681678
 [681901]: http://bugs.debian.org/681901
 [682053]: http://bugs.debian.org/682053
+[682177]: http://bugs.debian.org/682177
