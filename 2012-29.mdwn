@@ -48,6 +48,10 @@ The motto for this week was:
    *libsuitesparse-dbg doesn't contain any debug information*  
    submitted a patch that fixes the issue, no intent to NMU as I cannot test the changes good enough
 
+ * [682249][682249] **frontaccounting**
+   *fails to install: SQL syntax error*  
+   submitted a patch to use ENGINE=(MyISAM|InnoDB) instead of the deprecated and removed TYPE=...
+
 [663506]: http://bugs.debian.org/663506
 [681316]: http://bugs.debian.org/681316
 [681328]: http://bugs.debian.org/681328
@@ -59,3 +63,4 @@ The motto for this week was:
 [682053]: http://bugs.debian.org/682053
 [682177]: http://bugs.debian.org/682177
 [682076]: http://bugs.debian.org/682076
+[682249]: http://bugs.debian.org/682249
