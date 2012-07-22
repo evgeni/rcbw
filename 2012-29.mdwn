@@ -2,7 +2,8 @@ RCBW report for 2012/29 (16.7.-22.7.)
 =====================================
 
 The motto for this week was:  
-![shut up and take my patches!](http://cdn.memegenerator.net/instances/400x/23595123.jpg)
+![shut up and take my patches!](http://cdn.memegenerator.net/instances/400x/23595123.jpg)  
+(Don't take it personally, it's just a meme :P)
 
  * [681583][681583] **python-blist**
    *empty package*  
